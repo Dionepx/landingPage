@@ -1,0 +1,159 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; /*reset nas bordas*/
+ }
+ 
+ html,body {
+     height: 100%;
+ }
+ 
+ .header {
+     width: 100%;
+     height: 90px;
+     background-color: #212343;
+ }
+ 
+ .banner img {
+     width: 100%;
+     height: 600px;
+ }
+ 
+ .header img {
+     margin-left: 300px;
+     margin-top: 30px;
+ }
+ 
+ .form {
+     position: absolute;
+     top: 65px;
+     left: 1300px;
+     width: 400px;
+     height: 650px;
+     background-color: white;
+     border: 8px solid #ccc;
+ }
+ 
+ h2 {
+     text-align: center;
+     padding-top: 25px;
+     padding-bottom: 30px;
+ }
+ 
+ form input[type=text] {
+     width: 250px;
+     height: 50px;
+     margin-left: 60px;
+     margin-top: 40px;
+     padding-left: 10px;
+ }
+ 
+ .botao input[type=submit] {
+     font-size: 25px;
+     width: 200px;
+     height: 50px;
+     background-color: #212343;
+     color: white;
+     border: 0;
+     margin-top: 100px;
+     margin-left: 95px;
+     cursor: pointer;
+ 
+ }
+ 
+ .botao input[type=submit]:hover {
+     color: #ccc;
+    border: 5px solid #212343;
+ }
+ 
+ .opacity {
+     position: absolute;
+     width: 619px;
+     height: 270px;
+     background-color: rgba(33,35,67,0.7);
+     top: 230px;
+     left: 300px;
+     list-style-position: inside; /*pontos antes do texto*/
+     color: white;
+ 
+ }
+ 
+ .opacity:hover {
+     background-color: rgba(33,35,67,0.9);
+ }
+ 
+ .opacity li {
+     margin-left: 50px;
+     margin-top: 30px;
+ }
+ 
+ .gray-belt {
+     width: 100%;
+     height: 289px;
+     background-color: rgb(238, 229, 229);
+ } 
+ 
+ .gray-belt p {
+     font-size: 20px;
+     text-align: justify;
+     width: 900px;
+     margin-left: 500px;
+     padding-top: 0px;
+ } 
+ 
+ .gray-belt .lorem {
+     margin-left: 880px;
+     font-size: 30px;
+     font-family: "Sofia", sans-serif;
+ }
+ 
+ .gray-belt img {
+     position: absolute;
+     left: 935px;
+     top: 950px;
+     
+ }
+ 
+ .last {
+     text-align: center;
+     padding-top: 50px;
+     padding-top: 80px;
+ }
+ 
+ .container {
+     display: inline-block;
+     margin-right: -4px;
+     width: 33.333%;
+     text-align: center;
+     margin-top: 80px;
+     padding-left: 80px;
+     padding-right: 30px;
+ }
+ 
+ .container p {
+     text-align: justify;
+     
+ }
+ 
+ .footer {
+     position: absolute;
+     border-top: 5px solid #8888;
+     top: 1475px;
+     width: 100%;
+     padding-top: 100px;
+     color: #8888;
+ }
+ 
+ .footer .a {
+     position: absolute;
+     top: 13px;
+     left: 845px;
+     text-align: center;
+ }
+ 
+ .footer .b {
+     position: absolute;
+     top: 40px;
+     left: 760px;
+     text-align: center;
+ }
